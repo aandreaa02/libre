@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ES-es">
+
+<head>
+    <title>
+        CUESTIONARIO
+    </title>
+    <meta charset="utf-8">
+    <link href="sos.png" rel="icon" type="image/png">
+    <link href="color.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <form action="envioOk.html" method="get">
+    <h3>CUESTIONARIO HISTORIA</h3>
+    <table class="default">
+<section>
+    <span>Información personal:</span>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su apellido">
+    <input class="controls" type="text" name="fecha" id="fecha" placeholder="Ingrese la fecha de hoy">
+    <input class="controls" type="text" name="DNI" id="DNI" placeholder="Ingrese su DNI">
+    <p>Año de nacimiento: <input type="number" name="nacido" min="1930"></p>  
+    <p>
+      </select>
+      <label for="number">
+        <span>Domicilio:</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="casa" name="domicilio" required="required">
+    </p>
+    <p>Sexo:
+        <input type="radio" name="hm" value="h"> Hombre
+        <input type="radio" name="hm" value="m"> Mujer
+      </p>
+      <p>
+      <label for="tiempo">
+        <span>¿Desde hace cuánto tienes el curso?</span>
+      </label>
+      <select id="tiempo" name="usertime">
+        <option value="">--</option>
+        <option value="poco">menos de un año</option>
+        <option value="medio">1 año</option>
+        <option value="mucho">más de un año</option>
+      </select>
+    </p>
+    <p>
+      <label for="pregunta">
+        <span>¿Has trabajado ya como socorrista?¿Dónde?</span>
+        <strong><abbr title="required" required="required">*</abbr></strong>
+      </label>
+      <textarea id="content" name="pregunta" cols="60" rows="5" required="required"></textarea>
+    </p>
+    <p>
+      <label for="date">
+        <span>¿Cuando podrías empezar?</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="date" id="date" name="expiration">
+    </p>
+    <p>
+        <legend>¿En que estación prefieres trabajar?</legend>
+        <div>
+            <input type="checkbox" id="lunes" name="semana" value="L" />
+            <label for="lunes">Verano (piscina municipal)</label>
+        
+            <input type="checkbox" id="martes" name="semana" value="M" />
+            <label for="martes">Invierno (piscina cubierta)</label>
+        </div>
+    </p>
+</section>
+<p>
+  <input type="submit" value="Enviar" />
+  <input type="submit" value="Rehacer" />
+</p>
+</form> 
+</body>
+</html>
