@@ -1,6 +1,49 @@
-button{
-    align-items: center;
+body {
+    background-color: rgb(195, 237, 250);
+    padding-left: 1em;
+    font-family: Georgia, "Times New Roman",
+        Times, serif;
+    color: black;
+    font-size: 14;
 }
-table{
-    align-content: center;
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 15;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2 {
+	color: rgb(0, 0, 0);
+    font-size: 15;
+    text-align: center;
+}
+
+h1:link {
+    color: rgb(0, 29, 110);
+    text-decoration: none;
+}
+
+h1:visited {
+    color: rgb(1, 1, 41);
+    text-decoration: none;
+}
+
+h1:hover {
+    color: rgb(111, 168, 5);
+    text-decoration: none;
+}
+
+h1:active {
+    color: rgb(209, 9, 9);
+    text-decoration: none;
+}
+
+button {
+    background-color:rgb(255, 255, 255)
+}
+fieldset{
+    border-radius: 3px;
+    border-color: black;
 }
